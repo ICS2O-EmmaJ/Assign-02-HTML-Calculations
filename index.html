@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Surface Area and Volume of a Sphere">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Emma Janani">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Surface Area and Volume of a Sphere</title>
+  </head>
+  <center>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Surface Area and Volume of a Sphere</h1>
+    <p>
+      <h3>Please enter the radius of the sphere below:</h3>
+      <form action="javascript:calculateSphere()">
+        <label for="Radius">Radius of Sphere:</label>
+        <input type="number" step="any" id="radius" placeholder="Radius"><br><br>
+        <input type="submit" value="Calculate">
+      </form>
+    </p>
+		<!-- Create a space where the user information will be displayed -->
+		<div id="display-results">
+    	<div id="surface-area"></div>
+			<div id="volume"></div>
+		</div>
+    <img src="./images/sphere.gif" width="200"><img src="./images/sphere.jpg" width="700">
+  </body>
+  </center>
+</html>

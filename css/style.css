@@ -1,0 +1,26 @@
+/* Created by: Emma Janani
+* Created on: Mar 2022
+* This CSS file defines the style for index.html
+* ICS2O-Unit2-01-HTML-JS-HelloWorld
+*/
+
+body {
+	background-color: MediumAquamarine;
+}
+
+h1 {
+	background-color: #c2ffea;
+	color: hsl(0, 0%, 0%);
+	padding: 40px;
+	text-align: center;
+}
+
+div {
+  font-weight: bold;
+  color: #245947;
+  margin: 5px;
+}
+
+#display-results{
+  background-color: #c2ffea;;
+}
