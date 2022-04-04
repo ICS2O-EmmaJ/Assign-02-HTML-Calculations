@@ -5,12 +5,12 @@
 */
 
 body {
-	background-color: MediumAquamarine;
+	background-color: #ade7ff;
 }
 
 h1 {
-	background-color: #c2ffea;
-	color: hsl(0, 0%, 0%);
+	background-color: #096d96;
+	color: white;
 	padding: 40px;
 	text-align: center;
 }
@@ -22,5 +22,5 @@ div {
 }
 
 #display-results{
-  background-color: #c2ffea;;
+  background-color: #c2ffea;
 }
