@@ -5,11 +5,11 @@
 */
 
 body {
-	background-color: #ade7ff;
+	background-color: #aae3d8;
 }
 
 h1 {
-	background-color: #096d96;
+	background-color: #34a38e;
 	color: white;
 	padding: 40px;
 	text-align: center;
@@ -17,10 +17,14 @@ h1 {
 
 div {
   font-weight: bold;
-  color: #245947;
+  color: white;
   margin: 5px;
 }
 
 #display-results{
-  background-color: #c2ffea;
+  background-color: #192a9e;
+}
+
+button {
+background-color: #c2ffea;
 }

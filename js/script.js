@@ -18,7 +18,7 @@ function calculateSphere () {
   let radius = parseFloat(document.getElementById('radius').value)
 
   // calculate the surface area and volume
-  let pi = 3.141592653589793238462643383279502884197169399375105820974944592307816406286 
+  let pi = Math.PI
   let surface_area = radius ** 2 * 4 * pi
   let volume = radius ** 3 * 4/3 * pi
 
